@@ -2,6 +2,18 @@
 Changelog for package rqt_human_radar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2022-12-13)
+------------------
+* changing variable names to overcome shadowing errors
+* fixed CMakeLists.txt to overcome shadowing issues
+* adding missing build dependencies
+  The package was previously missing a series of build dependencies:
+  - tf
+  - hri
+  - qt5base
+  - gt5svg5
+* Contributors: lorenzoferrini
+
 0.2.0 (2022-10-18)
 ------------------
 
